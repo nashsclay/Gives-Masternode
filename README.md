@@ -1,4 +1,4 @@
-# StrongHands-Masternode Setup
+# Gives-Masternode Setup
 
 If you just want the commands for VPS setup:
 ```
