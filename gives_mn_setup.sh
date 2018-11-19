@@ -2,17 +2,17 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='shmn.conf'
-CONFIGFOLDER='/root/.shmn'
-COIN_DAEMON='shmnd'
-COIN_CLI='shmn-cli'
-COIN_TX='shmn-tx'
+CONFIG_FILE='GivesMN.conf'
+CONFIGFOLDER='/root/.GivesMN'
+COIN_DAEMON='GivesMNd'
+COIN_CLI='GivesMN-cli'
+COIN_TX='GivesMN-tx'
 COIN_PATH='/usr/local/bin/'
 COIN_TGZ='https://github.com/nashsclay/Gives-Masternode/releases/download/v1.0/GivesMN.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='shmn'
-COIN_PORT=50005
-RPC_PORT=50006
+COIN_NAME='GivesMN'
+COIN_PORT=5966
+RPC_PORT=5967
 
 NODEIP=$(curl -s4 icanhazip.com)
 
