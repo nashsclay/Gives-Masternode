@@ -39,7 +39,7 @@ This is your MN private key. Keep this safe but close by as you will need it for
 
 Now it's time to transfer your coins to your MN1 address. Go to Send. Then go to Inputs and select the coins you wish the wallet to choose from to send to your MN1 address. After you chose those coins, press ok. Go to Receive tab and double click on the MN1 below on that screen. Your address should appear. Copy this address and paste it on the Send screen and if done correctly the name of your MN should appear in the label box.
 
-Next type in the amount of coins you wish to send to your MN (this coin should be 11111 CALP. NO more NO less). Once done, click Send
+Next type in the amount of coins you wish to send to your MN (this coin should be 25000 GVMN. NO more NO less). Once done, click Send
 
 Once sent, please allow the transaction to FULLY confirm. You can see this by looking at the Transactions tab. Once your coins fully confirm you need to go back to the console (Help --> Debug window --> console tab) and type in:
 
@@ -55,7 +55,7 @@ Once reopen the wallet, go to the Masternode tab and press Update.
 
 Eensure your MN appears, click Update if it does not appear. Now cointinue to the next section of this guide.
 
-## To Install the CoinAlpaca-Masternode on VPS Server
+## To Install the Gives-Masternode on VPS Server
 
 Go through setting up the wallet and MN information on your computer. Then once that is ready to go, continue on to this guide. 
 
@@ -97,7 +97,7 @@ chmod +x CoinAlpaca_mn_setup.sh
 ```
 You will need to copy and paste your masternode private key into putty when it asks. Then press Enter, when this is done, go back to your wallet, unlock your wallet in Settings. Once unlocked, start your masternode. Go to the Masternode tab, and try to start it, if it fails, try the command below in the NOTE. Once started go back to your VPS. type in
 
-`CoinAlpaca-cli masternode status`
+`GivesMN-cli masternode status`
 
 If it says, Masternode Successfully Started then congrats you are done!
 
@@ -111,25 +111,25 @@ This information will be very useful once your MN is setup and ready.
 
 Displays currention information about the masternode
 
-`CoinAlpaca-cli getinfo`
+`GivesMN-cli getinfo`
 
 
 You want to see status: "Masternode successfully started" and that will show your Masternode is ready to go.
 
-`CoinAlpaca-cli masternode status`
+`CGivesMN-cli masternode status`
 
 
 Will stop your masternode and wil automatically restart
 
-`CoinAlpaca-cli stop`
+`GivesMN-cli stop`
 
 
-This will allow you to edit your masternode's wallet (not your computer's wallet). You can also you this command after the setup to fix if you input the incorrect MN key. Once open and done making changes, press Ctrl + o then Enter to save changes, then Ctrl + x to exit. Then run CoinAlpaca-cli stop to restart the MN.
+This will allow you to edit your masternode's wallet (not your computer's wallet). You can also you this command after the setup to fix if you input the incorrect MN key. Once open and done making changes, press Ctrl + o then Enter to save changes, then Ctrl + x to exit. Then run GivesMN-cli stop to restart the MN.
 
-`nano ~/.CoinAlpaca/CoinAlpaca.conf`
+`nano ~/.GivesMN/GivesMN.conf`
 
 
-This is where your CoinAlpaca-Masternode program files are saved to
+This is where your Gives-Masternode program files are saved to
 
 `cd /usr/local/bin`
 
@@ -139,9 +139,9 @@ Return to root home folder
 `cd ~`
 
 
-This will give you access to the folder of CoinAlpaca-Masternode files. Notice the period in front of the folder. If your are in the home folder and do **ls** command, it will not show the folder. Period means hidden. Correct command to display this folder in the home folder is **ls -al**
+This will give you access to the folder of Gives-Masternode files. Notice the period in front of the folder. If your are in the home folder and do **ls** command, it will not show the folder. Period means hidden. Correct command to display this folder in the home folder is **ls -al**
 
-`cd ~/.CoinAlpaca`
+`cd ~/.GivesMN`
 
 
 You can alway DM me on discord at nashsclay#6809
