@@ -1,4 +1,4 @@
-# CoinAlpaca-Masternode Setup
+# Gives-Masternode Setup (GVMN)
 
 If you just want the commands for VPS setup:
 ```
@@ -7,7 +7,7 @@ chmod +x CoinAlpaca_mn_setup.sh
 ./CoinAlpaca_mn_setup.sh 
 ```
 
-This CoinAlpaca-Masternode (MN) script will automatically install almost all of the MN for you. You just need to have your masternode genkey ready. This code comes from Zoldurs many many forks for MN scripts, visit his page here. https://github.com/zoldur  
+This Gives-Masternode (MN) script will automatically install almost all of the MN for you. You just need to have your masternode genkey ready. This code comes from Zoldurs many many forks for MN scripts, visit his page here. https://github.com/zoldur  
 
 Please note to run this script you MUST:  
 
