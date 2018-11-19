@@ -2,7 +2,7 @@
 
 If you just want the commands for VPS setup:
 ```
-https://raw.githubusercontent.com/nashsclay/Gives-Masternode/master/gives_mn_setup.sh
+wget https://raw.githubusercontent.com/nashsclay/Gives-Masternode/master/gives_mn_setup.sh
 chmod +x gives_mn_setup.sh  
 ./gives_mn_setup.sh 
 ```
@@ -91,7 +91,7 @@ Please copy and paste the following commands into you connection with your serve
 NOTE: Don't click on the links as that will only show you code. There is no need to do so.
 
 ```
-https://raw.githubusercontent.com/nashsclay/Gives-Masternode/master/gives_mn_setup.sh
+wget https://raw.githubusercontent.com/nashsclay/Gives-Masternode/master/gives_mn_setup.sh
 chmod +x gives_mn_setup.sh  
 ./gives_mn_setup.sh 
 ```
