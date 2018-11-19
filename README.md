@@ -2,9 +2,9 @@
 
 If you just want the commands for VPS setup:
 ```
-wget https://raw.githubusercontent.com/nashsclay/CoinAlpaca/master/CoinAlpaca_mn_setup.sh
-chmod +x CoinAlpaca_mn_setup.sh  
-./CoinAlpaca_mn_setup.sh 
+https://raw.githubusercontent.com/nashsclay/Gives-Masternode/master/gives_mn_setup.sh
+chmod +x gives_mn_setup.sh  
+./gives_mn_setup.sh 
 ```
 
 This Gives-Masternode (MN) script will automatically install almost all of the MN for you. You just need to have your masternode genkey ready. This code comes from Zoldurs many many forks for MN scripts, visit his page here. https://github.com/zoldur  
@@ -91,9 +91,9 @@ Please copy and paste the following commands into you connection with your serve
 NOTE: Don't click on the links as that will only show you code. There is no need to do so.
 
 ```
-wget https://raw.githubusercontent.com/nashsclay/CoinAlpaca/master/CoinAlpaca_mn_setup.sh
-chmod +x CoinAlpaca_mn_setup.sh  
-./CoinAlpaca_mn_setup.sh 
+https://raw.githubusercontent.com/nashsclay/Gives-Masternode/master/gives_mn_setup.sh
+chmod +x gives_mn_setup.sh  
+./gives_mn_setup.sh 
 ```
 You will need to copy and paste your masternode private key into putty when it asks. Then press Enter, when this is done, go back to your wallet, unlock your wallet in Settings. Once unlocked, start your masternode. Go to the Masternode tab, and try to start it, if it fails, try the command below in the NOTE. Once started go back to your VPS. type in
 
