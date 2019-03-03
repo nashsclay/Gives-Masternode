@@ -8,11 +8,11 @@ COIN_DAEMON='GivesMNd'
 COIN_CLI='GivesMN-cli'
 COIN_TX='GivesMN-tx'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/nashsclay/Gives-Masternode/releases/download/v1.0/GivesMN.zip'
+COIN_TGZ='https://github.com/nashsclay/Gives-Masternode/releases/download/v1.0.0.1/Gives-MN.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='GivesMN'
 COIN_PORT=5966
-RPC_PORT=5967
+RPC_PORT=9332
 
 NODEIP=$(curl -s4 icanhazip.com)
 
